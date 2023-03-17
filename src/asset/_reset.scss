@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    &::after,&::before{
+        @extend *;
+    }
+}
+body{
+    font-size: fontSize;
+    background-color: re;
+}
